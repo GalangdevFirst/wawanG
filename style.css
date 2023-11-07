@@ -1,0 +1,90 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+}
+
+.container_navbar {
+  background-color: #660808;
+  height: 100px;
+  width: 100%;
+}
+
+.ul-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.li-navbar {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+  border-radius: 5px;
+}
+.li-navbar:hover {
+  background-color: rgb(199, 175, 144);
+  transition: 0.2s ease-in-out;
+}
+
+.container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.img-content {
+  width: 40%;
+  height: 70%;
+}
+.text-p {
+    color: black;
+}
+.font-text {
+  color: black;
+}
+.about-p {
+    margin: 8px;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.a-content {
+  background-color: rgb(92, 100, 100);
+  margin-top: 40px;
+  border-radius: 20px;
+  width: 700px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  box-shadow: 7px 10px 58px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 10px 58px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 10px 58px 0px rgba(0, 0, 0, 0.75);
+}
+.container-footer {
+  background-color: rgb(219, 166, 166);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 230px;
+}
+.h1-footer {
+  font-size: 20px;
+}
+
+.a-navbar {
+  text-decoration: none;
+  color: white;
+}
+.a-navbar:hover {
+  color: black;
+}
